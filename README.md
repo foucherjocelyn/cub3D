@@ -2,6 +2,8 @@
 
 The goal of this 42 project was to create a 3D maze in C using ray-casting techniques to create a game engine similar to the one of Wolfenstein3D.
 
+<img src="./example.png" alt="example picture" style="width: 600px; height: 480px">
+
 ## Usage
 
 Build the project, by executing the Makefile in the root folder with :
