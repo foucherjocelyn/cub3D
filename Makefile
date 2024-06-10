@@ -4,7 +4,7 @@ OBJS	= $(SRCS:.c=.o)
 
 NAME	= cub3D
 
-CC		= clang-9 
+CC		= clang
 
 CFLAGS	= -Wall -Werror -Wextra -O3
 

@@ -39,7 +39,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	size_t	i;
 
 	i = (src > dst) ? 0 : len - 1;
-	while ((dst || src) && i < len && i >= 0)
+	while ((dst || src) && i < len)
 	{
 		((unsigned char*)dst)[i] = ((const unsigned char*)src)[i];
 		i = (src > dst) ? i + 1 : i - 1;
